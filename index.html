@@ -1,1 +1,35 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cultura Agrícola do Brasil Interativo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Cultura Agrícola do Brasil Interativo</h1>
+</header>
+
+<div id="mapa">
+    <!-- SVG simplificado do Brasil com regiões -->
+    <svg viewBox="0 0 1000 1000" width="100%" height="auto">
+        <path id="norte" class="region" d="M100,100 L400,100 L350,400 L150,400 Z"></path>
+        <path id="nordeste" class="region" d="M400,100 L600,100 L650,300 L450,350 Z"></path>
+        <path id="centro-oeste" class="region" d="M350,400 L650,350 L700,600 L400,650 Z"></path>
+        <path id="sudeste" class="region" d="M650,350 L800,400 L750,650 L700,600 Z"></path>
+        <path id="sul" class="region" d="M700,600 L750,650 L650,800 L600,700 Z"></path>
+    </svg>
+
+    <div id="popup"></div>
+</div>
+
+<footer>
+    <p>© 2026 Cultura Agrícola do Brasil | Desenvolvido com ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
