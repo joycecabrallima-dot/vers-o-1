@@ -1,1 +1,61 @@
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#mapa {
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.region {
+    fill: #90ee90;
+    stroke: #4CAF50;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: fill 0.3s;
+}
+
+.region:hover {
+    fill: #32CD32;
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 10;
+}
+
+#popup h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
